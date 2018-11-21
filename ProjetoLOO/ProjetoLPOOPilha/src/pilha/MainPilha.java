@@ -11,7 +11,7 @@ public class MainPilha {
                 esc = Integer.parseInt(JOptionPane.showInputDialog("1- Adicionar nova Processo\n2-Desempilhar\n4 - Sair"));
             switch(esc){
                 case 1:
-                  int x = Integer.parseInt(JOptionPane.showInputDialog("Informe Qual Usuario você é:\n 1- Visitante ou Professor\n 2- Aluno\n 3- Maiores de 60 anos, deficiente e gestante"));
+                  int x = Integer.parseInt(JOptionPane.showInputDialog("Informe O que você irá fazer:1-Inscrição\n2-Renovação\n3-Trancamento"));
                     switch(x){
                         case 1:
                             pl.push(3);
